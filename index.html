@@ -35,14 +35,17 @@ tw-link.visited{
 font-size: 23px;
  color: #FF7700;
 }
+#imgloader-box{position:fixed;left:0;top:0;width:2px;height:2px;overflow:hidden;z-index:0}
+#imgloader-box img{position:absolute;left:0;top:0;width:1px;height:1px}
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">var audio_background = new Audio('https://youhaveowl.com/wp-content/uploads/2019/05/636254_Purple-Circle.mp3');
-audio_background.play();
-
-
-
-
-</script><tw-passagedata pid="1" name="Начало" tags="Основная-линия" position="216,25">&lt;div id=first-passage&gt;(css: &quot;font-size: 260%; color: gold;&quot;)[**&quot;Вот вы и здесь!&quot;**]&lt;div&gt;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">jQuery.preloadImages = function()
+ {
+  for(var i = 0; i < arguments.length; i++)
+  {
+   jQuery("<img>").attr("src", arguments[ i ]);
+  }
+ };
+$.preloadImages("https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png", "https://images2.imgbox.com/50/2d/2yxop7bb_o.png", "https://images2.imgbox.com/a3/7f/7QwQglLi_o.png", "https://images2.imgbox.com/d0/58/19ImMbk3_o.png", "https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png", "https://images2.imgbox.com/0c/f2/hdVgwebc_o.png", "https://images2.imgbox.com/27/69/AtZqrJ4I_o.png", "https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png", "https://images2.imgbox.com/85/1a/EjpXM0Fs_o.jpg");</script><tw-passagedata pid="1" name="Начало" tags="Основная-линия" position="216,25">&lt;div id=first-passage&gt;(css: &quot;font-size: 260%; color: gold;&quot;)[**&quot;Вот вы и здесь!&quot;**]&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы видите перед собой несуразного незнакомца. Что ему нужно?]
