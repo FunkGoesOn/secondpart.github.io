@@ -84,6 +84,13 @@ tw-link:hover, .enchantment-link:hover {
     color: white
 }
 
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 
 
@@ -98,14 +105,15 @@ tw-link:hover, .enchantment-link:hover {
    jQuery("<img>").attr("src", arguments[ i ]);
   }
  };
-$.preloadImages("https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png", "https://images2.imgbox.com/50/2d/2yxop7bb_o.png", "https://images2.imgbox.com/a3/7f/7QwQglLi_o.png", "https://images2.imgbox.com/d0/58/19ImMbk3_o.png", "https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png", "https://images2.imgbox.com/0c/f2/hdVgwebc_o.png", "https://images2.imgbox.com/27/69/AtZqrJ4I_o.png", "https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png", "https://images2.imgbox.com/85/1a/EjpXM0Fs_o.jpg", "https://images2.imgbox.com/8e/2f/mq8JWicj_o.png", "https://images2.imgbox.com/05/65/00Xw5d62_o.png", "https://images2.imgbox.com/73/17/gprBGOEb_o.png", "https://images2.imgbox.com/de/9b/kzYWXcEq_o.png", "https://images2.imgbox.com/ad/77/1OAZDVkV_o.png",
+$.preloadImages("https://images2.imgbox.com/96/30/67q3VAtm_o.png", "https://images2.imgbox.com/04/36/CShgGPBA_o.png", "https://images2.imgbox.com/74/fe/qa7aLntO_o.png", "https://images2.imgbox.com/ac/80/zGDOEQWB_o.png", "https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png", "https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png", "https://images2.imgbox.com/85/1a/EjpXM0Fs_o.jpg", "https://images2.imgbox.com/ed/37/mRlZJJBV_o.png", "https://images2.imgbox.com/6e/c4/dcCHJBQc_o.png", "https://images2.imgbox.com/de/9b/kzYWXcEq_o.png", "https://images2.imgbox.com/ad/77/1OAZDVkV_o.png",
 "https://images2.imgbox.com/61/68/gHPYrwS2_o.png",
 "https://images2.imgbox.com/6e/e5/pQ8ysux3_o.png",
 "https://images2.imgbox.com/37/1b/vlO920Bs_o.png",
 "https://images2.imgbox.com/e9/8d/kO6HJz2T_o.png",
 "https://images2.imgbox.com/7a/85/JkoMaEcX_o.png",
 "https://images2.imgbox.com/7a/85/JkoMaEcX_o.png",
-"https://images2.imgbox.com/eb/c4/M9Kqh29X_o.png");
+"https://images2.imgbox.com/eb/c4/M9Kqh29X_o.png",
+"https://images2.imgbox.com/de/8c/2diww8Uf_o.png");
 
 if (typeof window.customScripts == "undefined") {
 	window.customScripts = {
@@ -126,10 +134,11 @@ if (typeof window.customScripts == "undefined") {
 
 
 
+
 </script><tw-passagedata pid="1" name="Начало" tags="Основная-линия" position="216,25">&lt;div id=first-passage&gt;(css: &quot;font-size: 260%; color: gold;&quot;)[**&quot;Вот вы и здесь!&quot;**]&lt;div&gt;
-(if: (history:) contains &quot;Вар444&quot;)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+(if: (history:) contains &quot;Вар444&quot;)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;]
-(else:)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+(else:)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;]
 (css: &quot;font-size: 130%;&quot;)[Вы видите перед собой несуразного незнакомца. Что ему нужно?]
 
@@ -139,7 +148,7 @@ if (typeof window.customScripts == "undefined") {
 [[Нет, я просто нажал что-то не то и уже ухожу|Нет1]]
 
 </tw-passagedata><tw-passagedata pid="2" name="Да" tags="Основная-линия" position="291,153">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (if: (history:) contains &quot;Вар444&quot;)[(css: &quot;font-size: 130%;&quot;)[(css: &quot;color:red&quot;)[*Прекрасно!*] *Мое имя - |blk1&gt;[Суткак], и мне доверен |blk2&gt;[ключ] от шифра. Я бы с радостью |blk1&gt;[вручил его прямо сейчас] и отправился со спокойной душой по делам...*]
 (css: &quot;font-size: 130%;&quot;)[*...Увы! Мне |blk3&gt;[платят] поминутно, |blk2&gt;[поэтому я] должен придерживаться |blk3&gt;[определенного протокола]. Для начала, как вас |blk1&gt;[зовут?]*]]
@@ -153,7 +162,7 @@ if (typeof window.customScripts == "undefined") {
 
 
 </tw-passagedata><tw-passagedata pid="3" name="Нет1" tags="Побочная-линия" position="365,27">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*И вот снова я остаюсь в одиночестве... Но я не жалуюсь, нет. Совсем. Идите и не оборачивайтесь.*]
 
@@ -164,7 +173,7 @@ if (typeof window.customScripts == "undefined") {
 
 [[Попробовать снова|Справка]]</tw-passagedata><tw-passagedata pid="4" name="ПредБой" tags="Основная-линия" position="294,276">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы называете свое имя и наблюдаете за тем, как удовлетворенный Суткак начинает беспорядочно строчить в своем блокноте, пытаясь одновременно с этим поддерживать разговор.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[(css: &quot;font-size: 130%;&quot;)[*Отлично, разгадка почти у вас в руках! Остался один маленький момент исключительно для галочки - вы должны побороть неведомую вне виртуального мира тварь, один на один, используя только свой прирожденный талант и то, что вы взяли с собой...
 
@@ -192,7 +201,7 @@ if (typeof window.customScripts == "undefined") {
 [[Это было подло! Требую адвоката и меч поострее!|ПредБой3]]
 (if: (history:) contains &quot;Вар444&quot;)[(if:(history:) contains &quot;Извиняшка&quot;)[](else:)[&lt;span class=&#x27;green&#x27;&gt;[[Немного не в тему, но... Можешь перестать с этими красными фокусами? Я не хотела тебя задеть, честно!|Извиняшка]]&lt;/span&gt;]]
 </tw-passagedata><tw-passagedata pid="5" name="Вар4" tags="Побочная-линия" position="15,156">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Скажите спасибо, что ей не попалось на глаза что-то еще менее благозвучное! Каждый день я просыпаюсь с мыслью о том, что мог бы остаток своей жизни прожить под гордым именем Ачевс, Аклоп, Кошрог или вовсе Ротином...*]
 
@@ -200,7 +209,7 @@ if (typeof window.customScripts == "undefined") {
 
 [[Ладно, проехали. Так о чем это мы?|Да]]
 [[Кажется, я начинаю понимать, как это работает... Как насчет Киньлитевс?|Вар44]]</tw-passagedata><tw-passagedata pid="6" name="Вар3" tags="Побочная-линия" position="136,157">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Прошу. Мы ведь уже почти знакомы. Тем более, я уже дал вам свое имя, и будет только честно, если вы ответите мне тем же, так? Ваш ответ?*]
 
@@ -231,7 +240,7 @@ if (typeof window.customScripts == "undefined") {
 
 
 </tw-passagedata><tw-passagedata pid="8" name="Вар44" tags="Побочная-линия" position="13,257">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Да-да, умница. Можно мы уже продолжим? Итак...*]
 
@@ -239,7 +248,7 @@ if (typeof window.customScripts == "undefined") {
 
 [[Пфф... Ладно. Мы же здесь все взрослые люди.|Да]]
 [[АЦИНШАДНАРАК!|Вар444]]</tw-passagedata><tw-passagedata pid="9" name="Вар444" tags="Побочная-линия" position="14,358">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Суткак несколько минут смотрит на вас тупым взглядом. Вы решаете нарушить неловкую тишину, но как только случайный звук срывается с ваших губ, мужчина *тяжело* вздыхает, поворачивается и уходит]
 
@@ -252,27 +261,27 @@ if (typeof window.customScripts == "undefined") {
 
 [[Попробовать снова|Справка]]</tw-passagedata><tw-passagedata pid="10" name="Вар33" tags="Побочная-линия" position="134,258">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы терпеливо ждете, пока Суткак перестанет бормотать себе под нос что-то про &quot;этого не было в контракте&quot; и &quot;ужасную работу&quot;, пока он наконец снова не обращается к вам:]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Хорошо. Меня зовут Суткак. Не Кактус, не Сцукан и, ради бога, не Сучок, а именно Суткак. Давайте просто скажу, что я здесь по объявлению - человеку нужно зарабатывать на хлеб! На самом деле, вся моя работа заключается в том, чтобы каждый день отлавливать путников, наткнувшихся на этот квест. Каждый день, в течение месяца, я ищу всего двух нужных мне людей, которые, при этом, все никак не объявятся. Так давайте же сделаем это легче для нас обоих, а? Я жду...*]
 
 [[Окей, я поняла. Повторите вопрос?|Да]]
 [[Ммм...|Вар333]]</tw-passagedata><tw-passagedata pid="11" name="Вар333" tags="Побочная-линия" position="134,358">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы продолжаете терять свое драгоценное время, наблюдая за тем, как Суткак, кажется, переживает экзистенциальный кризис. Наконец он поднимает голову и тихо произносит:]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*...В свободное время я вяжу подставки для чайников. Теперь мы достаточно знакомы?*]
 
 (css: &quot;font-size: 130%;&quot;)[Он выглядит подавленно. Бедняге слишком мало за это платят.]
 
 [[Мило... Так уж и быть, я в деле|Да]]</tw-passagedata><tw-passagedata pid="12" name="ПредБой1" tags="" position="399,473">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[(css: &quot;font-size: 130%;&quot;)[*Вашему энтузиазму можно только позавидовать! Надеюсь, биться вы будете с таким же рвением, и недели моего бесцельного сидения здесь наконец-то окупятся сполна. Тогда, вперед-*]](else:)[(css: &quot;font-size: 130%;&quot;)[*Вашему энтузиазму можно только позавидовать! Надеюсь, биться вы будете (css: &quot;color:red;&quot;)[c nfrbv ;t hdtybtv], и недели моего ,(css: &quot;color:red;&quot;)[tcwtkmyjuj cbltybz] здесь наконец-то (css: &quot;color:red;&quot;)[jregzncz] сполна. Тогда, вперед-*]]](else:)[(css: &quot;font-size: 130%;&quot;)[*Вашему энтузиазму можно только позавидовать! Надеюсь, биться вы будете с таким же рвением, и недели моего бесцельного сидения здесь наконец-то окупятся сполна. Тогда, вперед-*]]
 
 [[..?|СправкаБой!]]
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[](else:)[&lt;span class=&#x27;green&#x27;&gt;[[Немного не в тему, но... Можешь перестать с этими красными фокусами? Я не хотела тебя задеть, честно!|Извиняшка]]&lt;/span&gt;]]</tw-passagedata><tw-passagedata pid="13" name="ПредБой3" tags="" position="262,470">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[(css: &quot;font-size: 130%;&quot;)[*Стоп-стоп-стоп, не так быстро! Быть может, я могу вам помочь. На самом деле, буквально на днях мне прилетел сверток с этим...а впрочем, вы сами поймете, когда развернете. Но для начала...*]](else:)[(css: &quot;font-size: 130%;&quot;)[*Стоп-стоп-стоп, (css: &quot;color: red;&quot;)[yt nfr ,scnhj]! Быть может, (css: &quot;color: red;&quot;)[z vjue dfv gjvjxm]. На самом деле, буквально на днях мне прилетел сверток с этим...а впрочем, вы сами поймете, (css: &quot;color: red;&quot;)[rjulf hfpdthytnt]. Но для начала...*]]](else:)[(css: &quot;font-size: 130%;&quot;)[*Стоп-стоп-стоп, не так быстро! Быть может, я могу вам помочь. На самом деле, буквально на днях мне прилетел сверток с этим...а впрочем, вы сами поймете, когда развернете. Но для начала...*]]
 
@@ -286,7 +295,7 @@ if (typeof window.customScripts == "undefined") {
 [[Ладно, я на это не подписывалась. Поехали дальше |Тоталфэйл]]
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[](else:)[&lt;span class=&#x27;green&#x27;&gt;[[Немного не в тему, но... Можешь перестать с этими красными фокусами? Я не хотела тебя задеть, честно!|Извиняшка]]&lt;/span&gt;]]</tw-passagedata><tw-passagedata pid="14" name="ПредБой2" tags="" position="102,471">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Ваш вопрос, на удивление, застает его врасплох. Это действительно было бы слишком легко, да?]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[(css: &quot;font-size: 130%;&quot;)[*Боюсь, вы не совсем правильно меня поняли... Я - эдакий хранитель ключа, хра-ни-тель, понимаете? Фрилансер, нанятый только по причине высокой усидчивости и глубоких карманов. Офисный работник на свежем воздухе. В мои обязанности не входит борьба с тварями, будь это неведомое нечто или простая подвальная крыса...*]](else:)[(css: &quot;font-size: 130%;&quot;)[*Боюсь, вы (css: &quot;color: red;&quot;)[yt cjdctv ghfdbkmyj vtyz gjyzkb]... Я - эдакий хранитель ключа, хра-ни-тель, понимаете? Фрилансер, нанятый только по причине (css: &quot;color: red;&quot;)[dscjrjq ecblxbdjcnb] и (css: &quot;color: red;&quot;)[uke,jrb[ rfhvfyjd]. Офисный работник на свежем воздухе. В мои обязанности не входит борьба с тварями, будь это неведомое нечто или (css: &quot;color: red;&quot;)[ghjcnfz gjldfkmyfz rhscf]...*]]](else:)[(css: &quot;font-size: 130%;&quot;)[*Боюсь, вы не совсем правильно меня поняли... Я - эдакий хранитель ключа, хра-ни-тель, понимаете? Фрилансер, нанятый только по причине высокой усидчивости и глубоких карманов. Офисный работник на свежем воздухе. В мои обязанности не входит борьба с тварями, будь это неведомое нечто или простая подвальная крыса...*]]
 
@@ -298,7 +307,7 @@ if (typeof window.customScripts == "undefined") {
 [[Дискуссия - не моя сильная сторона. Я просто поволоку тебя за собой, хочешь ты этого или нет|ПредБой24]]
 (if: (history:) contains &quot;Вар444&quot;)[(if: (history:) contains &quot;Извиняшка&quot;)[](else:)[&lt;span class=&#x27;green&#x27;&gt;[[Немного не в тему, но... Можешь перестать с этими красными фокусами? Я не хотела тебя задеть, честно!|Извиняшка]]&lt;/span&gt;]]</tw-passagedata><tw-passagedata pid="15" name="ПредБой21" tags="" position="158,588">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Тихий смешок со стороны Суктака дает вам понять, что миссия была провалена. Приставляя палец ко рту, тот достает из кармана кость непонятного происхождения и с размаху запускает ее себе за спину. Вы слышите какафонию хруста, топота и рева незнакомого вам животного.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Проблема? Исключено, ведь я его содержу! Эти громадины в самом деле ведь совсем как домашние - требуют ухода, ласки и постоянной кормежки. Но если бы я начал свою речь с этого, вы бы пошли на него, как на кролика - а я не хочу попадать в неприятности! Поэтому - страшитесь. И бойтесь. Но без меня.*]
 
@@ -306,7 +315,7 @@ if (typeof window.customScripts == "undefined") {
 
 [[Придется искать поддержки в других местах|КактусФэйл]]</tw-passagedata><tw-passagedata pid="16" name="ПредБой24" tags="" position="158,700">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Сама изворотливость, вы минуете словесные атаки Суткака и успеваете схватить его за локоть. Наслаждаться своим триумфом вам оставалось еще чуть меньше минуты.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Браво. Все-таки в вас есть что-то, отдаленно напоминающее боевой навык, а это означает, что победить в этой схватке у вас не составит труда.*]
 (css: &quot;font-size: 130%;&quot;)[*Ответьте мне только на один вопрос: вы в курсе того, куда нам идти? Ведите, а я, так уж и быть, останусь с вами в случае успеха.*]
@@ -314,21 +323,21 @@ if (typeof window.customScripts == "undefined") {
 (css: &quot;font-size: 130%;&quot;)[Ой. Вы осматриваетесь вокруг и не видите ничего, кроме бескрайней пустоты черного экрана. Почему это вообще должно было сработать?..]
 
 [[Ладно, попробую что-нибудь еще|КактусФэйл]]</tw-passagedata><tw-passagedata pid="17" name="ПредБой23" tags="" position="44,701">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Не знаю, удивляться ли вашей наивности или, все же, умиляться вашей доброте. В обоих случаях, здесь я ничем помочь не могу. Протокол есть протокол.*]
 
 (css: &quot;font-size: 130%;&quot;)[Несмотря на неудачную попытку переманить Суткака на свою сторону, вам удается завоевать его расположение.](css: &quot;font-size: 130%; color: green;&quot;)[ Вы можете выбрать новый аргумент.]
 
 [[Попытка номер два!|ПредБой2]]</tw-passagedata><tw-passagedata pid="18" name="ПредБой22" tags="" position="46,591">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Так? Если вы думаете, что знаете меня, то вы не ду-*]
 
 [[Что-то случилось?|Спина(]]
 
 </tw-passagedata><tw-passagedata pid="19" name="КактусФэйл" tags="" position="43,813">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Пожалуй, повторюсь. Вас ждет абсолютно безопасный бой. Вас одну. Без меня. Я остаюсь здесь и наблюдаю за вашими успехами. Если у вас еще остались вопросы...*]
 
@@ -336,12 +345,12 @@ if (typeof window.customScripts == "undefined") {
 
 [[Полагаю, выбора у меня нет. Выпускай зверя!|ПредБой1]]
 [[Это было подло! Требую адвоката и меч поострее!|ПредБойФэйл3]]</tw-passagedata><tw-passagedata pid="20" name="Тоталфэйл" tags="" position="300,873">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Суткак вздыхает и качает головой. Что, серьезно? Это должно было прокатить! Но ничего не остается, и вы снова возвращаетесь к выбору.]
 
 [[Полагаю, выбора у меня нет. Выпускай зверя!|ПредБой1]]</tw-passagedata><tw-passagedata pid="21" name="Загадкарешена" tags="" position="300,717">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Прекрасный ответ! Этот сверток ваш.*]
 
@@ -350,7 +359,7 @@ if (typeof window.customScripts == "undefined") {
 (css: &quot;font-size: 130%;&quot;)[*Полагаю, что это можно каким-то образом использовать в бою. Мое дело - передать, то что принадлежит вам по праву, и перенаправить вас туда, где развернется основное действие! Чем я сейчас и займусь-*]
 
 [[..?|СправкаБой!]]</tw-passagedata><tw-passagedata pid="22" name="ПредБойФэйл3" tags="" position="170,816">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Стоп-стоп-стоп, не так быстро! Быть может, я могу вам помочь. На самом деле, буквально на днях мне прилетел сверток с этим...а впрочем, вы сами поймете, когда развернете. Но для начала...*]
 
@@ -362,13 +371,13 @@ if (typeof window.customScripts == "undefined") {
 
 [[Окей, я готова ответить. Это...|Загадка]]
 [[Ладно, я на это не подписывалась. Поехали дальше |Тоталфэйл]]</tw-passagedata><tw-passagedata pid="23" name="ПредБойФэйл2" tags="" position="270,589">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[С загадками не сработало. Суткак все еще ждет ваших вопросов, и вы перебираете оставшиеся варианты.]
 [[Полагаю, выбора у меня нет. Выпускай зверя!|ПредБой1]]
 [[Ты не выглядишь больно удивленным... Только не говори, что не собираешься присоединиться.|ПредБойФэйлКактус]]</tw-passagedata><tw-passagedata pid="24" name="ПредБойФэйлКактус" tags="" position="512,584">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Ваш вопрос, на удивление, застает его врасплох. Это действительно было бы слишком легко, да?]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Боюсь, вы не совсем правильно меня поняли... Я - эдакий хранитель ключа, хра-ни-тель, понимаете? Фрилансер, нанятый только по причине высокой усидчивости и глубоких карманов. Офисный работник на свежем воздухе. В мои обязанности не входит борьба с тварями, будь это неведомое нечто или простая подвальная крыса...*]
 
@@ -379,20 +388,20 @@ if (typeof window.customScripts == "undefined") {
 [[Посмотри на меня. Разве я похожа на того, кто сносит монстрам головы с одного удара? Быть может, вместе мы сможем найти другой выход?|ПредБой223]]
 [[Дискуссия - не моя сильная сторона. Я просто поволоку тебя за собой, хочешь ты этого или нет|ПредБой224]]</tw-passagedata><tw-passagedata pid="25" name="ПредБой221" tags="" position="542,695">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Тихий смешок со стороны Суктака дает вам понять, что миссия была провалена. Приставляя палец ко рту, тот достает из кармана кость непонятного происхождения и с размаху запускает ее себе за спину. Вы слышите какафонию хруста, топота и рева незнакомого вам животного.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Проблема? Исключено, ведь я его содержу! Эти громадины в самом деле ведь совсем как домашние - требуют ухода, ласки и постоянной кормежки. Но если бы я начал свою речь с этого, вы бы пошли на него, как на кролика - а я не хочу попадать в неприятности! Поэтому - страшитесь. И бойтесь. Но без меня.*]
 
 (css: &quot;font-size: 130%;&quot;)[Что ж, попытаться стоило.]
 
 [[Придется искать поддержки в других местах|Тоталфэйл2]]</tw-passagedata><tw-passagedata pid="26" name="ПредБой222" tags="" position="437,693">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Так? Если вы думаете, что знаете меня, то вы не ду-*]
 
 [[Что-то случилось?|Спина((]]</tw-passagedata><tw-passagedata pid="27" name="ПредБой224" tags="" position="541,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Сама изворотливость, вы минуете словесные атаки Суткака и успеваете схватить его за локоть. Наслаждаться своим триумфом вам оставалось еще чуть меньше минуты.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Браво. Все-таки в вас есть что-то, отдаленно напоминающее боевой навык, а это означает, что победить в этой схватке у вас не составит труда.*]
 (css: &quot;font-size: 130%;&quot;)[*Ответьте мне только на один вопрос: вы в курсе того, куда нам идти? Ведите, а я, так уж и быть, останусь с вами в случае успеха.*]
@@ -400,14 +409,14 @@ if (typeof window.customScripts == "undefined") {
 (css: &quot;font-size: 130%;&quot;)[Ой. Вы осматриваетесь вокруг и не видите ничего, кроме бескрайней пустоты черного экрана. Почему это вообще должно было сработать?..]
 
 [[Ладно, попробую что-нибудь еще|Тоталфэйл2]]</tw-passagedata><tw-passagedata pid="28" name="ПредБой223" tags="" position="434,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Не знаю, удивляться ли вашей наивности или, все же, умиляться вашей доброте. В обоих случаях, здесь я ничем помочь не могу. Протокол есть протокол.*]
 
 (css: &quot;font-size: 130%;&quot;)[Несмотря на неудачную попытку переманить Суткака на свою сторону, вам удается завоевать его расположение.](css: &quot;font-size: 130%; color: green;&quot;)[ Вы можете выбрать новый аргумент.]
 
 [[Попытка номер два!|ПредБойФэйлКактус]]</tw-passagedata><tw-passagedata pid="29" name="Тоталфэйл2" tags="" position="653,746">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Пожалуй, повторюсь. Вас ждет абсолютно безопасный бой. Вас одну. Без меня. Я остаюсь здесь и наблюдаю за вашими успехами. Если у вас еще остались вопросы...*]
 
@@ -450,7 +459,7 @@ if (typeof window.customScripts == "undefined") {
 (css: &quot;font-size: 200%; color: gold&quot;)[**Итак, вы попали в незавидную ситуацию!**]
 
 (css: &quot;font-size: 130%;&quot;)[Перед вашими глазами появляется не поддающаяся словесному описанию окололавкрафтовская тварь? Вы не понимаете, что происходит, а Суткак ведет себя так, будто вы идете на прогулку в зоопарк? Значит, все идет по плану!]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Не волнуйтесь, Суткак действительно не врал: этот бой - всего лишь часть его рабочего договора. Через подобное проходил Марио, через то же пройдете и вы.]
 
@@ -527,7 +536,7 @@ if (typeof window.customScripts == "undefined") {
 Стоп. А вы что тут делаете?*]
 
 Кажется, вы прервали интересный разговор. Что тут вообще происходит? Ощущение, будто вы наткнулись какой-то передвижной офис - вот и кружка с недопитым чаем одиноко стоит на краю стола...
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Добро пожаловать на нашу маленькую базу! Я бы предложила вам присесть и выпить чайку, но ведь вы пытались сбежать, так? Только это против правил - поэтому можете взять конфетку и возвращаться в бой.*]
 
@@ -545,7 +554,7 @@ if (typeof window.customScripts == "undefined") {
 Стоп. А вы что тут делаете?*]
 
 Кажется, вы прервали интересный разговор. Что тут вообще происходит? Ощущение, будто вы наткнулись какой-то передвижной офис - вот и кружка с недопитым чаем одиноко стоит на краю стола...
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Добро пожаловать на нашу маленькую базу! Я бы предложила вам присесть и выпить чайку, но ведь вы пытались сбежать, так? Только это против правил - поэтому можете взять конфетку и возвращаться в бой.*]
 
@@ -620,7 +629,7 @@ if (typeof window.customScripts == "undefined") {
 Стоп. А вы что тут делаете?*]
 
 Кажется, вы прервали интересный разговор. Что тут вообще происходит? Ощущение, будто вы наткнулись какой-то передвижной офис - вот и кружка с недопитым чаем одиноко стоит на краю стола...
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Добро пожаловать на нашу маленькую базу! Я бы предложила вам присесть и выпить чайку, но ведь вы пытались сбежать, так? Только это против правил - поэтому можете взять конфетку и возвращаться в бой.*]
 
@@ -653,7 +662,7 @@ if (typeof window.customScripts == "undefined") {
 Стоп. А вы что тут делаете?*]
 
 Кажется, вы прервали интересный разговор. Что тут вообще происходит? Ощущение, будто вы наткнулись какой-то передвижной офис - вот и кружка с недопитым чаем одиноко стоит на краю стола...
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Добро пожаловать на нашу маленькую базу! Я бы предложила вам присесть и выпить чайку, но ведь вы пытались сбежать, так? Только это против правил - поэтому можете взять конфетку и возвращаться в бой.*]
 
@@ -718,9 +727,9 @@ if (typeof window.customScripts == "undefined") {
 *М-м-м... Я несколько минут думала над адекватными идеями и не нашла в них ничего шибко эффективного. Но пока я нахожусь здесь, я могу без вреда себе и окружающим пробовать идеи совершенно неадекватные, так? Вы со мной?*]]
 
 [[Окей, удиви меня|Кольцо1]]
-[[А если я откажусь просто ради эксперимента?|Кольцо2]]</tw-passagedata><tw-passagedata pid="75" name="Спина(" tags="" position="655,484">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[А если я откажусь просто ради эксперимента?|Кольцо2]]</tw-passagedata><tw-passagedata pid="75" name="Спина(" tags="" position="667,477">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Ход мыслей Суткака прерывает внезапный хруст, который издает его спина в ответ на попытку резко выпрямиться. Тот шипит себе что-то под нос и пораженно опускает плечи. В этом раунде победа остается за вами и сидячим образом жизни!]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Ладно. В этом есть смысл. В мои планы это явно не входило, но в них не входил и месяц без движения. Повторюсь, я не воин! Не ждите от меня подвигов!*]
 
@@ -731,7 +740,7 @@ if (typeof window.customScripts == "undefined") {
 [[..?|СправкаБой!]]
 </tw-passagedata><tw-passagedata pid="76" name="Спина((" tags="" position="785,482">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Ход мыслей Суткака прерывает внезапный хруст, который издает его спина в ответ на попытку резко выпрямиться. Тот шипит себе что-то под нос и пораженно опускает плечи. В этом раунде победа остается за вами и сидячим образом жизни!]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Ладно. В этом есть смысл. В мои планы это явно не входило, но в них не входил и месяц без движения. Повторюсь, я не воин! Не ждите от меня подвигов!*]
 
@@ -843,7 +852,7 @@ P. S. Только один вопрос - что же вы такое напи�
 
 [[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="95" name="Поебда" tags="" position="1355,1098">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 200%; color: gold&quot;)[***Отличная работа!***]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Не волнуйтесь, с ним все будет в порядке - все-таки, уход за неведомой зверушкой тоже ложится на мои плечи...
 Но это моя и только моя проблема. Вы выполнили условие, каким-то образом поколотив мое чадо подручными предметами, и можете теперь получить свою награду. Следуйте за мной!]
@@ -853,21 +862,21 @@ P. S. Только один вопрос - что же вы такое напи�
 [[Это правда все? Должно быть больше одного испытания, разве не так?|НефиналВетка]]
 
 </tw-passagedata><tw-passagedata pid="96" name="Финал" tags="" position="1367,1463">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Какая радость! Это не займет много времени, будьте уверены...*
 
 Так же внезапно, как и в прошлый раз, мир вокруг вас исчезает, только чтобы вы появились...]
 
 [[...в самом начале?|Финал1]]</tw-passagedata><tw-passagedata pid="97" name="Нефинал" tags="" position="1482,1099">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*А? Нет, это точно против правил. Если вы так горите желанием пожить вдали от цивилизации в окружении странных зверей и сугробов - возьмите путевку на Полюс, что угодно! Поверьте, остаться в этой необитаемой пустыне больше, чем на пару дней - сомнительное удовольствие.*]
 
 [[Ладно, убедил. Я уже иду|Финал]]
 [[Необитаемая? Тогда с кем я сейчас разговариваю?|Нефинал1]]
 [[Пара дней? Ты ведь вроде живешь здесь месяц? Не выглядишь особо расстроенным.|Нефинал2]]</tw-passagedata><tw-passagedata pid="98" name="Нефинал1" tags="" position="1425,1206">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/05/65/00Xw5d62_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/c4/dcCHJBQc_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Это ненадолго. Как только вы выйдете отсюда, я вернусь к нормальной жизни - учеба, работа, горячий доширак на коленках... И никаких Арчубайтеров с Фарионами, прошу заметить! Обычные зимние вечера дома без вечного ожидания нужных людей...*
 
@@ -878,7 +887,7 @@ P. S. Только один вопрос - что же вы такое напи�
 (css: &quot;font-size: 130%;&quot;)[*О, у меня есть свои секреты.*]
 
 (css: &quot;font-size: 130%;&quot;)[Суткак подходит ближе, только для того, чтобы вы могли услышать его шепот...]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Мне за это хорошо платят.*]
 
@@ -886,7 +895,7 @@ P. S. Только один вопрос - что же вы такое напи�
 
 [[Куда! Ладно, я иду!|Финал]]</tw-passagedata><tw-passagedata pid="100" name="Нефинал3" tags="" position="1426,1312">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[И как же вы были неправы! Суткак продолжает считать ворон, хоть и на ходу. Не осмеливаясь спросить его о дороге, вы продолжаете идти все дальше и дальше...
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Да, как-то так. Стоп.*
 
@@ -923,9 +932,9 @@ P. S. Только один вопрос - что же вы такое напи�
 (else:)[
 	(go-to: &quot;Тоталфэйл&quot;)
 ]</tw-passagedata><tw-passagedata pid="105" name="НефиналВетка" tags="" position="1233,1099">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-(if: (history:) contains &quot;НефиналВетка&quot;)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/05/65/00Xw5d62_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+(if: (history:) contains &quot;НефиналВетка&quot;)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/c4/dcCHJBQc_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;(css: &quot;font-size: 130%;&quot;)[*Еще не наигрались? Во что я ввязался... У нас есть еще немного времени, но все же поторопитесь! Какие еще предложения? Или, все же, продолжим наш путь?*]]
-(else:)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+(else:)[&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;(css: &quot;font-size: 130%;&quot;)[*Ну надо же, это что-то новенькое! Кто бы мог подумать, что вы не захотите наоборот закончить с этим побыстрее?
 ...Но в мои планы это не входило. А это значит, что раз вам так важно испытать себя еще каким-либо образом, идеи вам придется предлагать самим. Я слушаю...*]]
 
@@ -935,16 +944,16 @@ P. S. Только один вопрос - что же вы такое напи�
 [[А? Серьезно? Ладно-ладно, это была шутка. Я уже иду|Финал]]
 </tw-passagedata><tw-passagedata pid="106" name="Стихи1" tags="" position="1192,1316">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Слова льются из ваших уст, словно пиво из бутылки на культурной попойке за гаражами. Браво! Не думаю, что Дед Мороз одобрил бы такое поведение, но ведь вы и не на утреннике, не так ли?]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*- Хе-хе, молодежь... Я знаю как минимум пять переделок этого бессмертного шедевра! С удовольствием заменил бы финальную схватку на битву колкостей, но у нас правда нет на это времени. Идем!*]
 
 [[Ок, я удовлетворена. Идем!|Финал]]
 [[И это все? Ну нет, я еще не закончила!|НефиналВетка]]</tw-passagedata><tw-passagedata pid="107" name="Стихи2" tags="" position="1191,1423">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Мороз и солнце! Такое проникновенное чтение заработало бы вам уважение всех учителей литературы мира, выбери вы более удачный момент... А пока, можете радоваться своей удивительной памяти! (вы же не учили его специально, да?..)
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
-*- Ого. Не думал, что вы принимаете это так серьезно... После такого я просто обязан дать вам подарок, да?*
+*Ого. Не думал, что вы принимаете это так серьезно... После такого я просто обязан дать вам подарок, да?*
 
 (css: &quot;color: green;&quot;)[Вы получаете Конфетную обертку!]
 
@@ -952,7 +961,7 @@ P. S. Только один вопрос - что же вы такое напи�
 
 [[Спасибо? Ладно, идем.|Финал]]
 [[Это все конечно хорошо, но у меня была еще парочка идей...|НефиналВетка]]</tw-passagedata><tw-passagedata pid="108" name="Загадки" tags="" position="1069,1098">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Вы заставляете меня выглядеть стариком... Но я не обижусь. Пока. Три загадки, значит? Не совсем мой профиль, но ладно... Вот вам первая!*]
 
@@ -963,7 +972,7 @@ P. S. Только один вопрос - что же вы такое напи�
 
 [[Что, серьезно? Ну ладно, вот мой ответ...|Зответ1]]
 [[Ну я так не играю. Лучше пойдем дальше|Финал]]</tw-passagedata><tw-passagedata pid="109" name="Стихи" tags="" position="1192,1208">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b4/a0/p7K4bt0u_o.png&quot; width=&quot;390&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Я что, похож на Деда Мороза?
 ...Хотя почему я все еще спрашиваю? Стишок, значит. Удивите меня. Блесните талантом, и, так уж и быть, я пропущу вас дальше. Не то чтобы я не собирался этого сделать изначально...*]
@@ -972,13 +981,13 @@ P. S. Только один вопрос - что же вы такое напи�
 [[Зачитать что-то из избранного творчества Пушкина|Стихи2]]
 [[Спеть на немецком|Стихи3]]
 [[Удивить? Звучит как вызов (написать что-то свое)|Стихи4]]</tw-passagedata><tw-passagedata pid="110" name="Дуэль" tags="" position="1305,1209">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Точно не вариант. Все-таки насилие, как значится, не выход! Я старый человек, мне нельзя сильно напрягаться - и я нарушаю этот завет уже около месяца!*]
 
 [[Ладно, дедушка. Идем|Финал]]
 [[Тебе не больше тридцати, какой ты старый?|Дуэль2]]</tw-passagedata><tw-passagedata pid="111" name="Зфэйл1" tags="" position="955,1223">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Не получилось? А я уже вошел во вкус... Так уж и быть, дам вам еще одну попытку. Подумайте хорошенько и отвечайте!]
 
@@ -990,14 +999,14 @@ P. S. Только один вопрос - что же вы такое напи�
 [[Как щедро! Ну ладно, отвечаю...|Зответ1]]</tw-passagedata><tw-passagedata pid="112" name="Стихи3" tags="" position="1193,1532">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[(css: &quot;font-size: 130%;&quot;)[Юля?.. Кхм, то есть, круто! У вас, оказывается, был еще один скрытый талант, о котором не было известно при написании квеста! Можете собою гордиться.]]
 (else:)[(css: &quot;font-size: 130%;&quot;)[Ходишь с козырей, Карина? Кхм, о чем это я... Апплодисменты, пожалуйста!  Уверена, вы очаровали каждое живое существо в этом месте (если тут и есть кто-то, кроме любителя геля для волос)]]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Очень любопытно... Я не знаю языка, но это звучало довольно мило! Надеюсь, меня не водят за нос, и вы на самом деле спели что-то приличное. Однако, нам пора. За мной!*]
 
 [[Он не знает... В смысле, идем!|Финал]]
 [[Я и не так могу! Вот что я хотела предложить...|НефиналВетка]]
 </tw-passagedata><tw-passagedata pid="113" name="Зфэйл2" tags="" position="959,1457">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Не получилось? А я уже вошел во вкус... Так уж и быть, дам вам еще одну попытку. Подумайте хорошенько и отвечайте!]
 
@@ -1024,14 +1033,14 @@ P. S. Только один вопрос - что же вы такое напи�
 	(go-to: &quot;Стихи5&quot;)
 ]</tw-passagedata><tw-passagedata pid="116" name="Стихи5" tags="" position="1302,1637">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Это... действительно талант, хоть и весьма своеобразный. Передаю слово своему верному помощнику!
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *- Так, стоять! Как мне на это реагировать?
 ...Ладно. Вы все же выполнили свое обещание, а я выполню свое. Вы же не против, если я запишу это? В исследовательских целях! Сделаю это на ходу.*]
 
 [[Окей. Тогда можем отправляться|Финал]]
 [[Рано! Продолжим наш разговор|НефиналВетка]]</tw-passagedata><tw-passagedata pid="117" name="Загадки2" tags="" position="1072,1343">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Ну не молодец? Совершенно верно! Вот моя следующая загадка. Будьте внимательны!*]
 
@@ -1075,8 +1084,8 @@ n -ой на первую. Через какое время черепахи в�
 [[...|Хуйня твои загадки]]
 [[...|Хуйня твои загадки]]
 [[Is this a real life?|Хуйня твои загадки]]
-[[Is this just fantasy?|Хуйня твои загадки]]</tw-passagedata><tw-passagedata pid="120" name="Дуэль2" tags="" position="1304,1317">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/58/19ImMbk3_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+[[Is this just fantasy?|Хуйня твои загадки]]</tw-passagedata><tw-passagedata pid="120" name="Дуэль2" tags="" position="1302,1315">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ac/80/zGDOEQWB_o.png&quot; width=&quot;320&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*А вам (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[девятнадцать] (else:)[семнадцать] и вы чувствуете себя точно так же, не так ли? Я прав? Идем*
 
@@ -1085,19 +1094,19 @@ n -ой на первую. Через какое время черепахи в�
 [[Ну вот зачем ты так? Иду-иду|Финал]]
 [[Ладно, у меня есть менее травматичные идеи. Посмотрим...|НефиналВетка]]</tw-passagedata><tw-passagedata pid="121" name="Хуйня твои загадки" tags="" position="962,1678">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Подло, Суткак, очень подло! Лучше... убери это с моих глаз, пока мне не поплохело, хорошо? Кхм. Продолжим.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/8e/2f/mq8JWicj_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ed/37/mRlZJJBV_o.png&quot; width=&quot;330&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*- Что? Вы знали, на что шли, не так ли?
 Ладно, ладно, плохая шутка. Но признайте, я застал вас врасплох! Можем продолжить путь?*]
 
 [[Да уж, лучше продолжим...|Финал]]
 [[Ну нет, я за это еще отомщу! У меня есть и другие варианты!|НефиналВетка]]</tw-passagedata><tw-passagedata pid="122" name="Загадки3" tags="" position="1070,1575">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Вторая загадка у вас в кармане! Осталась последняя...*]
 
 [[Да-да, я поняла. Стоп, а где загадка...|Загадкаджокера]]</tw-passagedata><tw-passagedata pid="123" name="Финал1" tags="" position="1448,1579">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Нет-нет, не волнуйтесь - вам не придется проходить все снова! Просто именно отсюда я (или мы, когда Суткак не возится с вами) слежу за всем процессом. Каждый раз, когда вы натыкались на концовку, вы возвращались в определенное начало, так? Вот мы и решили привязаться к одному месту - обустроили тут маленький офис... Даже стулья есть!
 
@@ -1132,21 +1141,15 @@ n -ой на первую. Через какое время черепахи в�
 
 [[Где носит Суткака?|Экшн21]]
 [[Можно мне домой?|Экшн22]]
-[[Вопросов нет. Просто зашла поздравить вас обоих с Новым годом|Экшн23]]</tw-passagedata><tw-passagedata pid="128" name="Безымянный параграф 1" tags="" position="2162,1183">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
-&lt;/style&gt;
-(css: &quot;font-size: 130%;&quot;)</tw-passagedata><tw-passagedata pid="129" name="Безымянный параграф 2" tags="" position="2011,1187">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/b5/d9/vhUVS5P8_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
-&lt;/style&gt;
-(css: &quot;font-size: 130%;&quot;)</tw-passagedata><tw-passagedata pid="130" name="Экшн4" tags="" position="1496,914">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Вопросов нет. Просто зашла поздравить вас обоих с Новым годом|Экшн23]]</tw-passagedata><tw-passagedata pid="128" name="Экшн4" tags="" position="1496,914">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Услышав ваши крики, Суткак принимает наконец решение и, приложив нечеловеческое усилие, возвращает спицы обратно. (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[Фариону] (else:)[Арчубайтеру], еще не оправившемуся после первого удара, остается только пораженно рухнуть на землю - его хозяин, успевший спрыгнуть за мгновение до этого, делает глубокий вдох перед тем, как обратиться к вам.
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Ну вот и все, кажется? Видите, я же говорил, что я не боец - одна оплошность, и меня можно было бы вытирать с пола тряпочкой. (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[Фариону] (else:)[Арчубайтеру] понадобится время и забота, чтобы восстановиться, но вас ждет только одна дорога - дорога вперед, к разгадке шифра! Я присоединюсь к вам, как только... как только вымолю прощения у бедного существа, хорошо? Не должно занять много времени...*]
 
 (css: &quot;font-size: 200%; color: orange;&quot;)[Вы одержали победу!]
 
-[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="131" name="Экшн3" tags="" position="1395,922">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="129" name="Экшн3" tags="" position="1395,922">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Ничего не понятно, но очень интересно. Кажется, Суткак должен появиться здесь примерно...]
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ad/77/1OAZDVkV_o.png&quot; width=&quot;500&quot; height=&quot;550&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1154,46 +1157,46 @@ n -ой на первую. Через какое время черепахи в�
 
 Шутки шутками, а пацанчик-то реально у...падет, если ничего не сделать!  (css: &quot;color: red;&quot;)[На следующих этапах у вас ограничено время ответа, будьте внимательны!]]
 
-[[Продолжить|Экшн41]]</tw-passagedata><tw-passagedata pid="132" name="Экшн23" tags="" position="1279,922">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|Экшн41]]</tw-passagedata><tw-passagedata pid="130" name="Экшн23" tags="" position="1279,922">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Это очень мило с вашей стороны! Будьте счастливы в новом году, и пусть радости жизни падают вам прямо на голову!
 Кстати о радостях, Суткак уже должен упасть на макушку (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[Фариона] (else:)[Арчубайтера]. Так почему вы все еще здесь?]
 
-[[Стоп, что? Мне пора назад...|Экшн3]]</tw-passagedata><tw-passagedata pid="133" name="Экшн21" tags="" position="1064,923">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Стоп, что? Мне пора назад...|Экшн3]]</tw-passagedata><tw-passagedata pid="131" name="Экшн21" tags="" position="1064,923">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/61/68/gHPYrwS2_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Суткак? Должен был уже с грацией падающего птенца появиться на поле боя. А что, вы разве не застали это зрелище?*]
 
-[[.. Кажется, самое время вернуться|Экшн3]]</tw-passagedata><tw-passagedata pid="134" name="Экшн22" tags="" position="1169,921">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[.. Кажется, самое время вернуться|Экшн3]]</tw-passagedata><tw-passagedata pid="132" name="Экшн22" tags="" position="1169,921">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Не могу поверить, что Какт... Суткак вам не объяснил. Не сдавайтесь, победа близка! Да и он скорее всего уже летит вам на помощь...*]
 
-[[...Летит? Пойду проверю|Экшн3]]</tw-passagedata><tw-passagedata pid="135" name="Извиняшка" tags="" position="429,278">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+[[...Летит? Пойду проверю|Экшн3]]</tw-passagedata><tw-passagedata pid="133" name="Извиняшка" tags="" position="429,278">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Ха-ха, ладно. Я еще слишком молод, чтобы долго дуться на такое. Скажем, я просто хотел посмотреть на вашу реакцию - но теперь, когда вы извинились, нет смысла продолжать, так? Итак, на чем мы остановились...*]
 
 (css: &quot;font-size: 130%; color: green&quot;)[Суткак больше не пакостничает!]
 
 [[Все хорошо, что хорошо кончается. Мы были где-то здесь...|ПредБой]]
-</tw-passagedata><tw-passagedata pid="136" name="Фото3?" tags="" position="1797,372">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="134" name="Фото3?" tags="" position="1797,372">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы решаете присмотреться к самой старой фотографии в конверте. Какая прелесть! Развернув снимок, вы наблюдаете что-то похожее на Арчубайтера, сжатого в пару-тройку раз, с самым невинным выражением лица. Интересно, сколько лет ему сейчас - должно быть, его кормильца тогда еще и в планах не было!
 
 Отвлекшись наконец от этой мысли, вы решаете вернуться к бою, только чтобы обнаружить Арчубайтера отвернувшимся от вас. Непохоже, чтобы он готовил какую-то пакость - похоже, даже полуразумное существо испытывает смешанные чувства при виде старых неловких фото. Но не дайте ему обмануть себя! В этот раз вам повезло, но для следующего нужно еще подготовиться, чем вы и решаете заняться...]
 
-[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="137" name="Фото2?" tags="" position="1901,372">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="135" name="Фото2?" tags="" position="1901,372">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Итак, ваш выбор пал на фото, раньше бережно хранившееся в чьем-то альбоме! Несмотря на общую потертость, вы можете хорошо разглядеть то, что творится на снимке: какой-то детский утренник вроде тех, что проводятся в детских садиках под Новый год - девочки-красавицы в костюмах снежинок, мальчики-снеговики с морковками на носах, елка, хаос, Дед Мороз. Странно, но один из снеговиков кажется вам смутно знакомым, несмотря на то, что остальные дети вам явно не встречались...
 
 Однако, вы не успеваете собраться с мыслями. Фотографию вырывают у вас из рук в то же мгновение, как вы собираетесь ее рассмотреть.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Простите, но это я оставлю себе. Будьте уверены - конкретно в этой схватке этот клочок бумаги вам не поможет! Кому-то наверху явно предстоит серьезный разговор о недопустимости копания в чужих вещах...*
 
 Упс. Во всяком случае, теперь вы точно знаете, что в следующем ходу вам придется искать новый способ удивить Арчубайтера.]
 
-[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="138" name="Фото1?" tags="" position="1902,480">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="136" name="Фото1?" tags="" position="1902,480">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы достаете из конверта самую маленькую фотографию, только для того, чтобы обнаружить, что она там далеко не одна! Сложенная в несколько раз лента из совершенно одинаковых фотографий 3х4 раскладывается в ваших руках, очень тонко намекая на то, что вы выбрали не тот вариант, что поможет вам в сражении.]
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1201,22 +1204,22 @@ n -ой на первую. Через какое время черепахи в�
 
 Была не была. Вы кладете находку обратно в карман вместе с конвертом и продумываете свой следующий ход...]
 
-[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="139" name="Фото3К" tags="" position="1804,905">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="137" name="Фото3К" tags="" position="1804,905">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы решаете присмотреться к самой старой фотографии в конверте. Какая прелесть! Развернув снимок, вы наблюдаете что-то похожее на Арчубайтера, сжатого в пару-тройку раз, с самым невинным выражением лица. Интересно, сколько лет ему сейчас - должно быть, его кормильца тогда еще и в планах не было!
 
 Отвлекшись наконец от этой мысли, вы решаете вернуться к бою, только чтобы обнаружить Арчубайтера отвернувшимся от вас. Непохоже, чтобы он готовил какую-то пакость - похоже, даже полуразумное существо испытывает смешанные чувства при виде старых неловких фото. Но не дайте ему обмануть себя! В этот раз вам повезло, но для следующего нужно еще подготовиться, чем вы и решаете заняться...]
 
-[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="140" name="Фото2К" tags="" position="1798,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="138" name="Фото2К" tags="" position="1798,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Итак, ваш выбор пал на фото, раньше бережно хранившееся в чьем-то альбоме! Несмотря на общую потертость, вы можете хорошо разглядеть то, что творится на снимке: какой-то детский утренник вроде тех, что проводятся в детских садиках под Новый год - девочки-красавицы в костюмах снежинок, мальчики-снеговики с морковками на носах, елка, хаос, Дед Мороз. Странно, но один из снеговиков кажется вам смутно знакомым, несмотря на то, что остальные дети вам явно не встречались...
 
 Однако, вы не успеваете собраться с мыслями. Фотографию вырывают у вас из рук в то же мгновение, как вы собираетесь ее рассмотреть.]
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/50/2d/2yxop7bb_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/04/36/CShgGPBA_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Простите, но это я оставлю себе. Будьте уверены - конкретно в этой схватке этот клочок бумаги вам не поможет! Кому-то наверху явно предстоит серьезный разговор о недопустимости копания в чужих вещах...*
 
 Упс. Во всяком случае, теперь вы точно знаете, что в следующем ходу вам придется искать новый способ удивить Арчубайтера.]
 
-[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="141" name="Фото1К" tags="" position="1907,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="139" name="Фото1К" tags="" position="1907,801">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы достаете из конверта самую маленькую фотографию, только для того, чтобы обнаружить, что она там далеко не одна! Сложенная в несколько раз лента из совершенно одинаковых фотографий 3х4 раскладывается в ваших руках, очень тонко намекая на то, что вы выбрали не тот вариант, что поможет вам в сражении.]
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1224,7 +1227,7 @@ n -ой на первую. Через какое время черепахи в�
 
 Была не была. Вы кладете находку обратно в карман вместе с конвертом и продумываете свой следующий ход...]
 
-[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="142" name="Кольцо1" tags="" position="1647,805">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="140" name="Кольцо1" tags="" position="1647,805">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Вы не успеваете подробней расспросить о том, каким будет дальнейший план действий - в следующее мгновение за столом уже никого нет, а с его стороны в течение пары минут доносится только шебуршание и шум выдвигаемых ящиков. Наконец, поиски подходят к концу, и перед вами предстает странная картина...
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/9b/kzYWXcEq_o.png&quot; width=&quot;350&quot; height=&quot;470&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1232,15 +1235,15 @@ n -ой на первую. Через какое время черепахи в�
 
 Я против бессмысленного насилия, конечно. Но раз уж мне выпала возможность испытать самый нелепый в мире кастет из колец на пару с вами (вы ведь со мной, так?), я не стану ее упускать! На счет три?*]
 
-[[Три?|Кольцо31]]</tw-passagedata><tw-passagedata pid="143" name="Кольцо2" tags="" position="1495,812">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Три?|Кольцо31]]</tw-passagedata><tw-passagedata pid="141" name="Кольцо2" tags="" position="1495,812">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[*И почему вы звучите так, будто за такой поступок на вашу голову сразу свалится рояль (или что похуже) и быстро выведет вас из игры?.. Нет, с вашим отказом ничего не произойдет - вы не сдвинетесь ни вперед, ни назад. Можете посидеть здесь, выпить чаю, скушать конфетку - только не забывайте о том, что после этого вам предстоит все-таки принять решение!*
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;color: green;&quot;)[*И помыть за собой кружку.*]
 
 *И помыть за собой кружку... Спасибо за напоминание, Суткак. Ну что, вернемся на шаг назад?*]
 
-[[Продолжить|КольцоЭкшн]]</tw-passagedata><tw-passagedata pid="144" name="Кольцо3" tags="" position="1597,1096">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|КольцоЭкшн]]</tw-passagedata><tw-passagedata pid="142" name="Кольцо3" tags="" position="1597,1096">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[В яблочко! Фарион, пораженный внезапной двойной атакой, содрогается всем телом, только чтобы упасть на бок и издать жалобный вой, призывая хозяина и одновременно объявляя окончание боя.
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1248,7 +1251,7 @@ n -ой на первую. Через какое время черепахи в�
 
 (css: &quot;font-size: 200%; color: orange;&quot;)[Вы одержали победу!]
 
-[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="145" name="Кольцо31" tags="" position="1596,917">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="143" name="Кольцо31" tags="" position="1596,917">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Думаю, начиная день, вы не думали, что будете на пару со школьницей атаковать порождение виртуальной реальности, используя оружие, сделанное будто бы на тематическом мастер-классе для малышей. Быть может, это и не должно так работать - жаль только, что законы этого мира не подчиняются законам нашего...
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/9b/kzYWXcEq_o.png&quot; width=&quot;350&quot; height=&quot;470&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1257,7 +1260,7 @@ n -ой на первую. Через какое время черепахи в�
 Фарион не участвует в вашем разговоре и продолжает бой! (css: &quot;color: red;&quot;)[На следующих этапах у вас ограничено время ответа, будьте внимательны!]] 
 
 [[Не так быстро! (продолжить)|Кольцо32]]
-</tw-passagedata><tw-passagedata pid="146" name="Кольцо32" tags="" position="1702,916">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="144" name="Кольцо32" tags="" position="1702,916">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/9b/kzYWXcEq_o.png&quot; width=&quot;350&quot; height=&quot;470&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[*Я знаю его слабые места - но вам нужно его отвлечь... Осторожней, он вас заметил!*
@@ -1273,7 +1276,7 @@ n -ой на первую. Через какое время черепахи в�
 [[Сделать жалобное лицо?|Кольцофэйл]]
 [[Увернуться!|Кольцо33]]
 [[Замахнуться покруче!|Кольцофэйл]]
-[[Подскользнуться!|Кольцофэйл]]</tw-passagedata><tw-passagedata pid="147" name="Кольцо33" tags="" position="1704,1019">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Подскользнуться!|Кольцофэйл]]</tw-passagedata><tw-passagedata pid="145" name="Кольцо33" tags="" position="1704,1019">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/9b/kzYWXcEq_o.png&quot; width=&quot;350&quot; height=&quot;470&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[Отлично, вы застали его врасплох! Попробуйте воспользоваться моментом и нанести удар - я верю в вас!]
@@ -1289,12 +1292,12 @@ n -ой на первую. Через какое время черепахи в�
 [[Угарать!|Кольцофэйл]]
 [[Убежать!|Кольцофэйл]]
 [[Ударить!|Кольцо34]]
-[[Урожай!?|Кольцофэйл]]</tw-passagedata><tw-passagedata pid="148" name="Кольцофэйл" tags="" position="1839,1138">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Урожай!?|Кольцофэйл]]</tw-passagedata><tw-passagedata pid="146" name="Кольцофэйл" tags="" position="1839,1138">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/61/68/gHPYrwS2_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[*Поосторожнее! Вы слишком дороги мне, чтобы вот так взять и запнуться, уже почти дойдя до конца, понимаете? Давайте переместимся на пару шагов назад...*]
 
-[[Попробовать снова|Кольцо31]]</tw-passagedata><tw-passagedata pid="149" name="Кольцо34" tags="" position="1707,1133">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Попробовать снова|Кольцо31]]</tw-passagedata><tw-passagedata pid="147" name="Кольцо34" tags="" position="1707,1133">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/9b/kzYWXcEq_o.png&quot; width=&quot;350&quot; height=&quot;470&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[Кажется, он близок! Наберитесь сил, и закончим с этим вместе - на счет...сейчас!]
@@ -1314,7 +1317,7 @@ n -ой на первую. Через какое время черепахи в�
 [[Размахнуться и упасть на спину!|Кольцофэйл]]
 [[Нанести финальный удар по монстру!|Кольцо3]]
 [[Выпить за свою победу!|Кольцофэйл]]
-</tw-passagedata><tw-passagedata pid="150" name="Экшн41" tags="" position="1706,1246">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="148" name="Экшн41" tags="" position="1706,1246">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ad/77/1OAZDVkV_o.png&quot; width=&quot;500&quot; height=&quot;550&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Суткак продолжает полумертвым грузом лететь вниз - кажется, он пытается закрыть глаза и...проснуться, может? Так он точно не долетит до места назначения - нужно привлечь его внимание!]
@@ -1332,12 +1335,12 @@ n -ой на первую. Через какое время черепахи в�
 [[Открой глаза наконец!|Экшн42]]
 [[Доброе утро, страна!|Экшнфэйл]]
 
-</tw-passagedata><tw-passagedata pid="151" name="Экшнфэйл" tags="" position="1642,1368">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="149" name="Экшнфэйл" tags="" position="1642,1368">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/61/68/gHPYrwS2_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[*О нет, я не дам вам пустить Суткака в расход! Он и вам тоже еще нужен, уверяю. Притворимся, что этого не было, и избавим его от страданий, отойдя на шаг назад, хорошо?*]
 
-[[Попробовать снова|Экшн3]]</tw-passagedata><tw-passagedata pid="152" name="Экшн42" tags="" position="1766,1370">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Попробовать снова|Экшн3]]</tw-passagedata><tw-passagedata pid="150" name="Экшн42" tags="" position="1766,1370">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ad/77/1OAZDVkV_o.png&quot; width=&quot;500&quot; height=&quot;550&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Благодаря вам, Суткак наконец преодолевает свой страх, свой плащ и (не свое) сопротивление воздуха, вынимая из-за пазухи пару вязальных спиц (он всегда носит их с собой, или?..). Отличный момент, чтобы помочь ему и отвлечь (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[Фариона] (else:)[Арчубайтера]!]
@@ -1354,7 +1357,7 @@ n -ой на первую. Через какое время черепахи в�
 [[А откуда у него спицы, правда?|Экшнфэйл]]
 [[Не надо, у меня семья!|Экшнфэйл]]
 [[Да ладно, сам справится|Экшнфэйл]]
-</tw-passagedata><tw-passagedata pid="153" name="Экшн43" tags="" position="1709,1492">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="151" name="Экшн43" tags="" position="1709,1492">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/ad/77/1OAZDVkV_o.png&quot; width=&quot;500&quot; height=&quot;550&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Дезориентированный (if: (history:) contains &quot;БОЕВКАЮЛИ&quot;)[Фарион] (else:)[Арчубайтер], отвлекшись на вас, упускает из вида Суткака, который жестко приземляется тому на спину, инстинктивно вонзая спицы в затылок. Тварь издает оглушительный вой, и начинает заваливаться на бок вместе с Суткаком, все еще держащимся за спицы... Надо прыгать, пока не поздно!]
@@ -1373,32 +1376,32 @@ n -ой на первую. Через какое время черепахи в�
 [[Прыгай!|Экшн4]]
 [[Загадай желание!|Экшнфэйл]]
 [[Сделай глубокий вдох...|Экшнфэйл]]
-[[А летать тут случайно нельзя?|Экшнфэйл]]</tw-passagedata><tw-passagedata pid="154" name="СУПАТК2?" tags="" position="1796,253">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[А летать тут случайно нельзя?|Экшнфэйл]]</tw-passagedata><tw-passagedata pid="152" name="СУПАТК2?" tags="" position="1796,253">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Так-так-так, стоять! Вы же не собираетесь помереть здесь и сейчас? Давайте, вы ведь так близки!..]
 
 [[А если да?|СУПАТК3]]
-[[И правда. Пора вставать|БОЕВКА ЮЛИ?]]</tw-passagedata><tw-passagedata pid="155" name="СУПАТК2К" tags="" position="1793,489">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[И правда. Пора вставать|БОЕВКА ЮЛИ?]]</tw-passagedata><tw-passagedata pid="153" name="СУПАТК2К" tags="" position="1793,489">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Так-так-так, стоять! Вы же не собираетесь помереть здесь и сейчас? Давайте, вы ведь так близки!..]
 
 [[А если да?|СУПАТК3]]
-[[И правда. Пора вставать|БОЕВКА ЮЛИКАКТУС]]</tw-passagedata><tw-passagedata pid="156" name="СУПАТККАР2" tags="" position="832,134">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[И правда. Пора вставать|БОЕВКА ЮЛИКАКТУС]]</tw-passagedata><tw-passagedata pid="154" name="СУПАТККАР2" tags="" position="832,134">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Так-так-так, стоять! Вы же не собираетесь помереть здесь и сейчас? Давайте, вы ведь так близки!..]
 
 [[А если да?|СУПАТК3КАР]]
-[[И правда. Пора вставать|БОЕВКА КАРИ]]</tw-passagedata><tw-passagedata pid="157" name="СУПАТК3КАР" tags="" position="820,258">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[И правда. Пора вставать|БОЕВКА КАРИ]]</tw-passagedata><tw-passagedata pid="155" name="СУПАТК3КАР" tags="" position="820,258">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Ну ладно. Кто я, чтобы перечить?]
 
 (css: &quot;font-size: 200%;&quot;)[**Открыта концовка: И как это называть?**]
 
-[[Вернуться в начало боя|НачнемКаря]]</tw-passagedata><tw-passagedata pid="158" name="СУПАТККАР2?" tags="" position="818,369">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Вернуться в начало боя|НачнемКаря]]</tw-passagedata><tw-passagedata pid="156" name="СУПАТККАР2?" tags="" position="818,369">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Так-так-так, стоять! Вы же не собираетесь помереть здесь и сейчас? Давайте, вы ведь так близки!..]
 
 [[А если да?|СУПАТК3КАР]]
-[[И правда. Пора вставать|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="159" name="СУПАТККАР2К" tags="" position="703,297">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[И правда. Пора вставать|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="157" name="СУПАТККАР2К" tags="" position="703,297">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Так-так-так, стоять! Вы же не собираетесь помереть здесь и сейчас? Давайте, вы ведь так близки!..]
 
 [[А если да?|СУПАТК3КАР]]
-[[И правда. Пора вставать|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="160" name="бубу1" tags="" position="894,805">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[И правда. Пора вставать|БОЕВКА КАРИКАКТУС]]</tw-passagedata><tw-passagedata pid="158" name="бубу1" tags="" position="894,805">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Оно пришло! Как падший ангел, Анги приземляется у ваших ног и начинает выражать свою бесконечную любовь.
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/e5/pQ8ysux3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1407,7 +1410,7 @@ n -ой на первую. Через какое время черепахи в�
 Ну не прелестно ли? Жаль, что никто не сказал Анги о том, какая ситуация разворачивается в то время, как он урчит вам в руку - Арчубайтер надвигается на вас с угрожающей скоростью!
 (css: &quot;color: red;&quot;)[На следующих этапах у вас ограничено время ответа, будьте внимательны!]]
 
-[[Не сегодня!|бубу2]]</tw-passagedata><tw-passagedata pid="161" name="бубу2" tags="" position="900,910">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Не сегодня!|бубу2]]</tw-passagedata><tw-passagedata pid="159" name="бубу2" tags="" position="900,910">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/e5/pQ8ysux3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Арчубайтер не теряет времени зря и замахивается в опасной близости от урчащего Анги - действуйте и предупредите его, пока не начали жалеть о том, что отвлеклись!]
@@ -1423,13 +1426,13 @@ n -ой на первую. Через какое время черепахи в�
 [[Бубуня, пора кушать!|бубуфэйл]]
 [[Бубуня, он сзади!|бубу3]]
 [[Бубуня, голос!|бубуфэйл]]
-[[Бубуня, кыш отседова!|бубуфэйл]]</tw-passagedata><tw-passagedata pid="162" name="бубуфэйл" tags="" position="779,906">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/a3/7f/7QwQglLi_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+[[Бубуня, кыш отседова!|бубуфэйл]]</tw-passagedata><tw-passagedata pid="160" name="бубуфэйл" tags="" position="779,906">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/74/fe/qa7aLntO_o.png&quot; width=&quot;380&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Не могу понять, пытаетесь вы угробить себя или кошку... В первом случае мне влетит от начальства, во втором вам влетит от меня за издевательство над животными - впредь воздержитесь от не самых умных решений, хорошо?*]
 
 [[Попробовать снова|бубу1]]
-</tw-passagedata><tw-passagedata pid="163" name="бубу3" tags="" position="899,1029">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+</tw-passagedata><tw-passagedata pid="161" name="бубу3" tags="" position="899,1029">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/e5/pQ8ysux3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[Кажется, пронесло... Вместе с этим, Анги перестал мурчать и перешел к открытой агрессии - шипение и шерсть дыбом должны были дать Арчубайтеру понять, что бой перешел в новую фазу, однако тот никогда раньше не видел кошек... Это ваш шанс!]
@@ -1445,7 +1448,7 @@ n -ой на первую. Через какое время черепахи в�
 [[Ну нет, Анги никуда не пойдет!|бубуфэйл]]
 [[Шанс? Не понимаю ваших намеков...|бубуфэйл]]
 [[Тоже начать шипеть и горбиться!|бубуфэйл]]
-[[Анги, фас! Целься в шею!|бубу4]]</tw-passagedata><tw-passagedata pid="164" name="бубу4" tags="" position="837,1150">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Анги, фас! Целься в шею!|бубу4]]</tw-passagedata><tw-passagedata pid="162" name="бубу4" tags="" position="837,1150">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/6e/e5/pQ8ysux3_o.png&quot; width=&quot;350&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[За Карину! Бубунечка начинает яростно царапать Арчубайтера, сопровождая весь процесс яростным мяуканьем, почти перекрывающим рев самого монстра. Конец близок, но не бросайте свое чадо - нанесите финальный удар!]
@@ -1464,15 +1467,15 @@ n -ой на первую. Через какое время черепахи в�
 [[Вложить душу и атаковать!|бубу5]]
 [[Позвонить в техподдержку!|бубуфэйл]]
 [[Помолиться за себя и Анги!|бубуфэйл]]
-[[А может он сам...|бубуфэйл]]</tw-passagedata><tw-passagedata pid="165" name="бубу5" tags="" position="838,1300">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[А может он сам...|бубуфэйл]]</tw-passagedata><tw-passagedata pid="163" name="бубу5" tags="" position="838,1300">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[Пораженный вашей сокрушительной атакой, сопровождаемой яростными попытками Анги подрать того, кто лишил его обеда, Арчубайтер наконец решает перестать сопротивляться. Громкий рев, сопровождаемый грохотом падения, не остается незамеченным - в то же мгновение на поле боя торопится Суткак.
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/d0/5f/FWGwwPeN_o.png&quot; width=&quot;360&quot; height=&quot;530&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/96/30/67q3VAtm_o.png&quot; width=&quot;315&quot; height=&quot;580&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 *Вижу вы справились со своей задачей! Блестящий бой, простой блестящий... привет, котик! Я могу последить за ним, пока вы заняты поиском ответов - не думаю, что Арчубайтер в его нынешнем состоянии будет против... Но я заговорился! Мне нужно привести бедного зверя в порядок - но после этого я сразу проведу вас дальше. Дайте мне всего пару минут!*]
 
 (css: &quot;font-size: 200%; color: orange;&quot;)[Вы одержали победу!]
 
-[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="166" name="рестарт" tags="" position="1436,1713">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|Поебда]]</tw-passagedata><tw-passagedata pid="164" name="рестарт" tags="" position="1436,1713">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot; alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*О как! Либо у вас очень много свободного времени, либо... Хе-хе, неважно - я уже отослала вашего проводника к началу, а вам осталось лишь нажать какую-нибудь большую красную кнопку, так? Сейчас все устроим...*
@@ -1483,34 +1486,34 @@ n -ой на первую. Через какое время черепахи в�
 
 (css: &quot;font-size: 250%; color: red;&quot;)[&lt;a onclick=&quot;location.reload()&quot; class=&quot;internalLink&quot;&gt;Нажимай меня полностью!&lt;/a&gt;]
 
-[[Стоп, я нажала сюда случайно. Верните меня назад|Финал1]]</tw-passagedata><tw-passagedata pid="167" name="конец" tags="" position="1598,1674">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+[[Стоп, я нажала сюда случайно. Верните меня назад|Финал1]]</tw-passagedata><tw-passagedata pid="165" name="конец" tags="" position="1598,1674">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%;&quot;)[*Что ж, было весело! Удачи с расшифровкой - и да...*]
 
 (css: &quot;font-size: 200%; color: orange;&quot;)[Увидимся в Новом году!]
 
-[[Продолжить|шифр]]</tw-passagedata><tw-passagedata pid="168" name="шифр" tags="" position="1566,1815">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|шифр]]</tw-passagedata><tw-passagedata pid="166" name="шифр" tags="" position="1566,1815">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/e9/8d/kO6HJz2T_o.png&quot; &quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 
 [[Вернуться обратно к выбору|Финал1]]
-[[Текст открыток в электронном варианте|открытки]]</tw-passagedata><tw-passagedata pid="169" name="открытки" tags="" position="1566,1965">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Текст открыток в электронном варианте|открытки]]</tw-passagedata><tw-passagedata pid="167" name="открытки" tags="" position="1566,1965">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 150%; color: orange&quot;)[Здесь вы можете получше вглядеться в текст открыток на случай, если я сделала его слишком мелким (простите). Choose your fighter:]
 
 [[Открытка Юли|юль]]
-[[Открытка Карины|карь]]</tw-passagedata><tw-passagedata pid="170" name="юль" tags="" position="1491,2115">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Открытка Карины|карь]]</tw-passagedata><tw-passagedata pid="168" name="юль" tags="" position="1491,2115">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/eb/c4/M9Kqh29X_o.png&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="171" name="карь" tags="" position="1646,2113">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="169" name="карь" tags="" position="1646,2113">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/7a/85/JkoMaEcX_o.png&quot; &quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="172" name="сбеж" tags="" position="844,644">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
-&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/37/1b/vlO920Bs_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="170" name="сбеж" tags="" position="844,644">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/de/8c/2diww8Uf_o.png&quot; width=&quot;690&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
 (css: &quot;font-size: 130%&quot;)[*Ну попробуйте. Я даже скажу вот что - я дам вам возможность пропустить бой! Сейчас, если вы решите продолжить, у вас будет вероятность ровно в 5 процентов попасть в яблочко и сразу выйти в финал - или же, вас выбросит где-то перед началом сражения (не бойтесь, прогресс потерян не будет). Начнем же!*]
 
-(link-goto: &quot;Продолжить&quot;, (either: &quot;СправкаБой!&quot;, &quot;Поебда&quot;, &quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,))</tw-passagedata><tw-passagedata pid="173" name="малаца" tags="" position="533,167">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+(link-goto: &quot;Продолжить&quot;, (either: &quot;СправкаБой!&quot;, &quot;Поебда&quot;, &quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,&quot;СправкаБой!&quot;,))</tw-passagedata><tw-passagedata pid="171" name="малаца" tags="" position="533,167">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/61/68/gHPYrwS2_o.png&quot; width=&quot;520&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
-&lt;/style&gt;</tw-passagedata><tw-passagedata pid="174" name="каряупс" tags="" position="1208,5">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="172" name="каряупс" tags="" position="1208,5">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[*Неужели?.. Но ведь вы должны были получить тот сверток-
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1520,7 +1523,7 @@ n -ой на первую. Через какое время черепахи в�
 
 *Так-то лучше! Не обижайтесь на Суткака, ему здесь скучнее, чем мне. Теперь можно и продолжить!*]
 
-[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="175" name="юляупс" tags="" position="1651,7">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА КАРИ?]]</tw-passagedata><tw-passagedata pid="173" name="юляупс" tags="" position="1651,7">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%;&quot;)[*Неужели?.. Но ведь вы должны были получить тот сверток-
 &lt;p class=&quot;aligncenter&quot;&gt; &lt;img src=&quot;https://images2.imgbox.com/cc/4c/m6QzWCDq_o.png&quot; width=&quot;520&quot; height=&quot;400&quot;alt=&quot;centered image&quot; /&gt; &lt;/p&gt;&lt;style&gt;.aligncenter {text-align: center;}
 &lt;/style&gt;
@@ -1530,7 +1533,7 @@ n -ой на первую. Через какое время черепахи в�
 
 *Так-то лучше! Не обижайтесь на Суткака, ему здесь скучнее, чем мне. Теперь можно и продолжить!*]
 
-[[Продолжить|БОЕВКА ЮЛИ?]]</tw-passagedata><tw-passagedata pid="176" name="СУПАТК3" tags="" position="1794,109">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
+[[Продолжить|БОЕВКА ЮЛИ?]]</tw-passagedata><tw-passagedata pid="174" name="СУПАТК3" tags="" position="1794,109">&lt;div id=&quot;first-passage&quot;&gt;&lt;div&gt;
 (css: &quot;font-size: 130%&quot;)[Ну ладно. Кто я, чтобы перечить?]
 
 (css: &quot;font-size: 200%;&quot;)[**Открыта концовка: И как это называть?**]
